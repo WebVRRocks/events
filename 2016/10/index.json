@@ -1,0 +1,869 @@
+{
+  "formats": [
+    {
+      "title": "Plenary",
+      "slug": "plenary",
+      "description": "Plenary sessions introduce and summarize information relevant to all participants."
+    },
+    {
+      "title": "Lightning",
+      "slug": "lightning",
+      "description": "Discussion topic (30-75 minutes) starts off with three or more 5-minutes lightning talks by speakers nominated in advance. Lightning talks are followed by group discussion and joint summary."
+    },
+    {
+      "title": "Breakout",
+      "slug": "breakout",
+      "description": "Participants break into smaller breakout groups to discuss more specific topics over a period of maximum 60 minutes. The breakout session schedule is identified and built collaboratively by the participants in the course of the workshop. Each group to provide a written summary of their breakout session."
+    },
+    {
+      "title": "Panel",
+      "slug": "panel",
+      "description": "A moderated panel discussion that elicits questions from the participants."
+    }
+  ],
+  "topics": [
+    {
+      "format": "plenary",
+      "title": "Opening Remarks",
+      "slug": "opening-remarks",
+      "time": {
+        "time_start": "2016-10-19T08:30:00",
+        "time_end": "2016-10-19T08:45:00"
+      }
+    },
+    {
+      "format": "plenary",
+      "title": "Keynote",
+      "slug": "keynote",
+      "time": {
+        "time_start": "2016-10-19T08:45:00",
+        "time_end": "2016-10-19T09:00:00"
+      }
+    },
+    {
+      "format": "plenary",
+      "title": "WebVR Intro: Implementation Status, Obstacles, Future Plans",
+      "slug": "webvr-intro",
+      "goals": "Understand WebVR implementation status, major obstacles, future plans.",
+      "time": {
+        "time_start": "2016-10-19T09:00:00",
+        "time_end": "2016-10-19T09:45:00"
+      }
+    },
+    {
+      "format": "lightning",
+      "title": "VR User Interactions in Browsers",
+      "slug": "vr-ux-in-browsers",
+      "goals": "Identify needs for basic primitives to capture user intents in VR experiences; explore nascent UI patterns in VR interactions.",
+      "time": {
+        "time_start": "2016-10-19T10:15:00",
+        "time_end": "2016-10-19T11:15:00"
+      }
+    },
+    {
+      "format": "lightning",
+      "title": "Accessibility of VR Experiences",
+      "slug": "accessibility-of-vr",
+      "goals": "Determine what enables an accessible VR experience; what basic hooks are needed to make VR approachable in a casual way.",
+      "time": {
+        "time_start": "2016-10-19T11:15:00",
+        "time_end": "2016-10-19T12:00:00"
+      }
+    },
+    {
+      "format": "lightning",
+      "title": "Multi-User VR Experiences",
+      "slug": "multi-user-vr",
+      "goals": "Challenges and opportunities of building social WebVR experiences while being immersed in an isolated virtual world; known technical solutions, gaps.",
+      "time": {
+        "time_start": "2016-10-19T13:00:00",
+        "time_end": "2016-10-19T14:00:00"
+      }
+    },
+    {
+      "format": "lightning",
+      "title": "Authoring VR Experiences on the Web",
+      "slug": "authoring-vr",
+      "goals": "Build a shared view on solutions for VR authoring and identify possible shared needs from underlying technologies (Web Components, WebVR, etc.).",
+      "time": {
+        "time_start": "2016-10-19T14:00:00",
+        "time_end": "2016-10-19T15:15:00"
+      }
+    },
+    {
+      "format": "lightning",
+      "title": "High-performance VR on the Web",
+      "slug": "high-performance-vr",
+      "goals": "Share WebVR implementation learnings and performance best practices, identify pitfalls to avoid when targeting low-latency VR; identify needs of other perf-enhancing technologies (e.g., WebAssembly) in the context of VR.",
+      "time": {
+        "time_start": "2016-10-19T14:45:00",
+        "time_end": "2016-10-19T15:45:00"
+      }
+    },
+    {
+      "format": "lightning",
+      "title": "360° Video on the Web",
+      "slug": "360-video-web",
+      "goals": "Identify needs for evolutions in streaming infrastructure (both on server and client side) to adapt to the heavy needs of 360° content streaming. Understand what changes are needed to HTML media interfaces to make them suitable for 360° media content.",
+      "time": {
+        "time_start": "2016-10-19T09:00:00",
+        "time_end": "2016-10-19T10:00:00"
+      }
+    },
+    {
+      "format": "panel",
+      "title": "Immersive Audio",
+      "slug": "immersive-audio",
+      "goals": "Discuss current status and plans for immersive audio on the Web, solicit feedback from the participants to inform related standards work (e.g., in the W3C Audio Working Group).",
+      "panelists": [
+        "thereaux--oliver",
+        "choi--hongchan",
+        "assenti--mike",
+        "toy--raymond"
+      ],
+      "time": {
+        "time_start": "2016-10-19T11:15:00",
+        "time_end": "2016-10-19T12:15:00"
+      }
+    },
+    {
+      "format": "breakout",
+      "title": "Breakout Sessions: Part 1",
+      "slug": "breakout-sessions-part-1",
+      "description": "Open one-hour session for discussions in smaller groups on specific topics proposed by workshop participants. Please add your suggestion to \"Proposed breakout sessions\" (see \"Getting ready for Web & VR Workshop\" mail in your inbox for instructions).",
+      "time": {
+        "time_start": "2016-10-19T13:00:00",
+        "time_end": "2016-10-19T14:00:00"
+      }
+    },
+    {
+      "format": "breakout",
+      "title": "Breakout Sessions: Part 2",
+      "slug": "breakout-sessions-part-2",
+      "description": "Open one-hour session for discussions in smaller groups on specific topics proposed by workshop participants. Please add your suggestion to \"Proposed breakout sessions\" (see \"Getting ready for Web & VR Workshop\" mail in your inbox for instructions).",
+      "time": {
+        "time_start": "2016-10-19T14:00:00",
+        "time_end": "2016-10-19T15:00:00"
+      }
+    }
+  ],
+  "talks": [
+    {
+      "title": "Opening Remarks",
+      "authors": [
+        "dom"
+      ],
+      "topic": "opening-remarks"
+    },
+    {
+      "title": "The Long Now of WebVR",
+      "authors": [
+        "white--sean"
+      ],
+      "slides": {
+        "slides_url": "https://www.w3.org/2016/06/vr-workshop/slides/2016-w3c-keynote-swhite.pdf",
+        "pdf_url": "https://www.w3.org/2016/06/vr-workshop/slides/2016-w3c-keynote-swhite.pdf"
+      },
+      "video": {
+        "youtube_url": "https://youtu.be/QmNykXi2y-U",
+        "filename": "white--sean__the-long-now-of-webvr.mp4"
+      },
+      "topic": "keynote"
+    },
+    {
+      "title": "WebVR Intro: Samsung Internet Browser for Gear VR",
+      "slug": "webvr-intro-samsung",
+      "authors": [
+        "gombos--laszlo"
+      ],
+      "slides": {
+        "slides_url": "https://docs.google.com/presentation/d/1kicYHeVf-dd7hrkN1XNSKUydcSxAiUxqBo2jyqlZIhg/edit#slide=id.p4",
+        "pdf_url": "https://www.w3.org/2016/06/vr-workshop/slides/samsung-internet-for-gear.pdf"
+      },
+      "topic": "webvr-intro"
+    },
+    {
+      "title": "Designing the Browser",
+      "slug": "designing-the-browser",
+      "authors": [
+        "carpenter-josh"
+      ],
+      "video": {
+        "youtube_url": "https://youtu.be/mpcgcVwvUgA",
+        "filename": "carpenter--josh__designing-the-browser.mp4"
+      },
+      "slides": {
+        "slides_url": "https://docs.google.com/presentation/d/1REdfafhexGuDtBDCp6uRgP5N6k9XGDiBUiZ0qmYOoXk/edit#slide=id.g18699a225a_0_58",
+        "pdf_url": "https://www.w3.org/2016/06/vr-workshop/slides/designing-the-browser.pdf"
+      },
+      "topic": "vr-ux-in-browsers"
+    },
+    {
+      "title": "Hyperlinks in WebVR",
+      "slug": "hyperlinks-in-webvr",
+      "authors": [
+        "van-wiemeersch--chris",
+        "yee--casey"
+      ],
+      "video": {
+        "youtube_url": "https://youtu.be/r8nK7qbyH48",
+        "filename": "van-wiemeersch--cvan__yee--casey__hyperlinks.mp4"
+      },
+      "slides": {
+        "slides_url": "https://docs.google.com/presentation/d/1V1_aXc6tZhXU7jUIQTdtBhRMxMWFR8n_PmbuIZTlCkA/edit"
+      },
+      "topic": "vr-ux-in-browsers"
+    },
+    {
+      "title": "Hand Tracking and Gestures for WebVR",
+      "slug": "hand-tracking-and-gestures",
+      "authors": [
+        "hu--ningxin"
+      ],
+      "video": {
+        "youtube_url": "https://youtu.be/0ReJ_V7zjp8",
+        "filename": "hu--ningxin__hand-tracking-gestures-webvr.mp4"
+      },
+      "slides": {
+        "slides_url": "https://huningxin.github.io/webvr-hand/"
+      },
+      "topic": "vr-ux-in-browsers"
+    },
+    {
+      "title": "Special Considerations for Inside-Out Tracking",
+      "slug": "inside-out-tracking",
+      "authors": [
+        "waliczek--nell"
+      ],
+      "slides": null,
+      "video": null,
+      "topic": "vr-ux-in-browsers"
+    },
+    {
+      "title": "Ray Input: Defaults for WebVR Input",
+      "slug": "ray-input",
+      "authors": [
+        "smus--boris"
+      ],
+      "slides": {
+        "slides_url": "https://docs.google.com/presentation/d/1k1dAEKB7axIOum5OiwNTcq4vVpHjSlbQdkjeEDdVKgw/edit#slide=id.p",
+        "pdf_url": "https://www.w3.org/2016/06/vr-workshop/slides/rayinput.pdf"
+      },
+      "video": {
+        "youtube_url": "https://youtu.be/lELxzGmDOsw",
+        "filename": "boris--smus__ray-input.mp4"
+      },
+      "topic": "vr-ux-in-browsers"
+    },
+    {
+      "title": "Samsung VR Browser for Gear VR Learnings",
+      "slug": "samsung-vr-browser-for-gear-vr-learnings",
+      "authors": [
+        "gombos--laszlo"
+      ],
+      "slides": null,
+      "video": null,
+      "topic": "vr-ux-in-browsers"
+    },
+    {
+      "title": "Accessibility: Not an Afterthought",
+      "slug": "accessibility-not-an-afterthought",
+      "authors": [
+        "lapierre--charles"
+      ],
+      "slides": {
+        "slides_url": "https://www.w3.org/2016/06/vr-workshop/slides/VR-Accessibility.pdf",
+        "pdf_url": "https://www.w3.org/2016/06/vr-workshop/slides/VR-Accessibility.pdf"
+      },
+      "video": {
+        "youtube_url": "https://youtu.be/VHLg9z9muvI",
+        "filename": "lapierre--charles__accessibility.mp4"
+      },
+      "topic": "accessibility-of-vr"
+    },
+    {
+      "title": "Browser UX in VR",
+      "slug": "browser-ux-in-vr",
+      "authors": [
+        "rogers--justin"
+      ],
+      "slides": {
+        "slides_url": "https://www.w3.org/2016/06/vr-workshop/slides/Browser_UX_in_VR.pdf"
+      },
+      "video": {
+        "youtube_url": "https://youtu.be/aPXhFj84xTc",
+        "filename": "rogers-justin__browser-ux-in-vr.mp4"
+      },
+      "topic": "accessibility-of-vr"
+    },
+    {
+      "title": "Web-based Mixed Reality",
+      "slug": "web-based-mr",
+      "authors": [
+        "manson--rob"
+      ],
+      "slides": {
+        "slides_url": "https://www.w3.org/2016/06/vr-workshop/slides/mixed_reality.pdf",
+        "pdf_url": "https://www.w3.org/2016/06/vr-workshop/slides/mixed_reality.pdf"
+      },
+      "video": {
+        "youtube_url": "https://youtu.be/mWCTb063UsU",
+        "filename": "manson--rob__web-based-mr.mp4"
+      },
+      "topic": "accessibility-of-vr"
+    },
+    {
+      "title": "Internet-Scale Shared VR",
+      "authors": [
+        "rosedale--philip"
+      ],
+      "video": {
+        "youtube_url": "https://youtu.be/Qy3DQLZr23Q",
+        "filename": "rosedale--philip__internet-scale-shared-vr.mp4"
+      },
+      "slides": {
+        "slides_url": "https://docs.google.com/presentation/d/1hX8ycLMt1xo3-BoEsNLLRizxMGsaCeTR59jo0LdJAT0/edit",
+        "pdf_url": "https://www.w3.org/2016/06/vr-workshop/slides/internet-scale-shared-vr.pdf"
+      },
+      "topic": "multi-user-vr"
+    },
+    {
+      "title": "From Clickable Pages to Walkable Spaces",
+      "authors": [
+        "courchesne--luc"
+      ],
+      "video": {
+        "youtube_url": "https://youtu.be/Ab-9hgHuR0E",
+        "filename": "courchesne--luc__clickable-pages-walkable-spaces.mp4"
+      },
+      "slides": {
+        "slides_url": "https://docs.google.com/presentation/d/1K0gCZEIiDzoNnwHqZPXEl_n2MzsC9YaxrF22_1SdMCc/edit#slide=id.p",
+        "pdf_url": "https://www.w3.org/2016/06/vr-workshop/slides/walkable-spaces.pdf"
+      },
+      "topic": "multi-user-vr"
+    },
+    {
+      "title": "Multimedia & Multi-User VR",
+      "authors": [
+        "gunkel--simon"
+      ],
+      "video": {
+        "youtube_url": "https://youtu.be/3hNMZ7HTSZo",
+        "filename": "gunkel--simon__multimedia-multi-user-vr.mp4"
+      },
+      "slides": {
+        "slides_url": "https://www.w3.org/2016/06/vr-workshop/slides/multimedia-multi-user.pdf",
+        "pdf_url": "https://www.w3.org/2016/06/vr-workshop/slides/multimedia-multi-user.pdf"
+      },
+      "topic": "multi-user-vr"
+    },
+    {
+      "title": "Mixed-Reality Service",
+      "authors": [
+        "pesce--mark",
+        "parisi--tony"
+      ],
+      "video": {
+        "youtube_url": "https://youtu.be/AXlFOPJqnEo",
+        "filename": "pesce--mark__parisi--tony__mrs.pdf"
+      },
+      "slides": {
+        "slides_url": "https://docs.google.com/presentation/d/1-0Y548vLlxpIByOvIgaE2QcEPf_z_hKXs3Kj8wO5eh8/edit#slide=id.g1856b96749_1_8",
+        "pdf_url": "https://www.w3.org/2016/06/vr-workshop/slides/mixed-reality-service.pdf"
+      },
+      "topic": "multi-user-vr"
+    },
+    {
+      "title": "Copresence in WebVR",
+      "authors": [
+        "smus--boris"
+      ],
+      "video": {
+        "youtube_url": "https://youtu.be/8T9lFJjKsOc",
+        "filename": "smus--boris--copresence-in-webvr.mp4"
+      },
+      "slides": {
+        "slides_url": "https://docs.google.com/presentation/d/1k1dAEKB7axIOum5OiwNTcq4vVpHjSlbQdkjeEDdVKgw/edit#slide=id.g184a962562_0_71",
+        "pdf_url": "https://www.w3.org/2016/06/vr-workshop/slides/copresence.pdf"
+      },
+      "topic": "multi-user-vr"
+    },
+    {
+      "title": "HTML & CSS",
+      "slug": "html-and-css",
+      "authors": [
+        "joshcarpenter"
+      ],
+      "video": {
+        "youtube_url": "https://youtu.be/vD3UOKCBy44",
+        "filename": "carpenter--josh__html-and-css.mp4"
+      },
+      "slides": {
+        "slides_url": "https://docs.google.com/presentation/d/1REdfafhexGuDtBDCp6uRgP5N6k9XGDiBUiZ0qmYOoXk/edit#slide=id.g18699a225a_0_58",
+        "pdf_url": "https://www.w3.org/2016/06/vr-workshop/slides/designing-the-browser.pdf"
+      },
+      "topic": "authoring-vr"
+    },
+    {
+      "title": "WebVR With Three.js",
+      "slug": "webvr-with-threejs",
+      "authors": [
+        "cabello--ricardo"
+      ],
+      "video": {
+        "youtube_url": "https://youtu.be/KIIMIazS7C4",
+        "filename": "cabello--ricardo__webvr-with-threejs.mp4"
+      },
+      "topic": "authoring-vr"
+    },
+    {
+      "title": "A-Frame",
+      "slug": "aframe",
+      "authors": [
+        "ngo--kevin"
+      ],
+      "video": {
+        "youtube_url": "https://youtu.be/FWqgP3-9mOw",
+        "filename": "ngo--kevin__aframe.mp4"
+      },
+      "slides": {
+        "slides_url": "https://ngokevin.github.io/w3c-webvr-presentation/"
+      },
+      "topic": "authoring-vr"
+    },
+    {
+      "title": "Building WebVR Apps with ReactVR",
+      "slug": "reactvr",
+      "authors": [
+        "roy--amber"
+      ],
+      "video": {
+        "youtube_url": "https://youtu.be/Bx5CHvMqK80",
+        "filename": "roy--amber__reactvr.mp4"
+      },
+      "topic": "authoring-vr"
+    },
+    {
+      "title": "XML3D",
+      "slug": "xml3d",
+      "authors": [
+        "slusallek--philipp"
+      ],
+      "video": {
+        "youtube_url": "https://youtu.be/IJ2niGU8Vww",
+        "filename": "slusallek--philipp__xml3d.mp4"
+      },
+      "topic": "authoring-vr"
+    },
+    {
+      "title": "Letsee: Webizing VR content",
+      "slug": "letsee",
+      "authors": [
+        "ahn--sangchul"
+      ],
+      "video": {
+        "youtube_url": "https://youtu.be/HGNGpbGgm1M",
+        "filename": "ahn--sangchul__letsee.mp4"
+      },
+      "topic": "authoring-vr"
+    },
+    {
+      "title": "glTF: Real-Time 3D Asset Delivery",
+      "slug": "gltf",
+      "authors": [
+        "parisi--tony",
+        "watson--amanda"
+      ],
+      "video": {
+        "youtube_url": "https://youtu.be/JrrUMw55mLg",
+        "filename": "parisi--tony__watson--amanda__gltf.mp4"
+      },
+      "topic": "authoring-vr"
+    },
+    {
+      "title": "Vizor: Visual Authoring of VR in the Browser",
+      "slug": "vizor",
+      "authors": [
+        "manninen--jaakko"
+      ],
+      "slides": {
+        "slides_url": "https://www.w3.org/2016/06/vr-workshop/slides/vizor-w3c-vr-workshop.pdf",
+        "pdf_url": "https://www.w3.org/2016/06/vr-workshop/slides/vizor-w3c-vr-workshop.pdf"
+      },
+      "video": {
+        "youtube_url": "https://youtu.be/2fD20zvujWs",
+        "filename": "manninen--jaakko__vizor.mp4"
+      },
+      "topic": "authoring-vr"
+    },
+    {
+      "title": "Chrome Android Learnings & Pitfalls to Avoid",
+      "slug": "chrome-android-perf",
+      "authors": [
+        "weidner--klaus"
+      ],
+      "slides": {
+        "slides_url": "https://docs.google.com/presentation/d/e/2PACX-1vRPK_ZAC2mKNwStORRB9vFEzpac3NiDw4zPFjN44wC29FbZyaOF1N4Eyf7_rINqlrBhZYs3AechTkpG/pub?start=false&loop=false&delayms=60000&slide=id.p",
+        "pdf_url": "https://docs.google.com/presentation/d/e/2PACX-1vRPK_ZAC2mKNwStORRB9vFEzpac3NiDw4zPFjN44wC29FbZyaOF1N4Eyf7_rINqlrBhZYs3AechTkpG/pub?start=false&loop=false&delayms=60000&slide=id.p"
+      },
+      "video": {
+        "youtube_url": "https://youtu.be/rhe-HQDLDXA",
+        "filename": "weidner--klaus__chrome-android-perf.mp4"
+      },
+      "topic": "high-performance-vr"
+    },
+    {
+      "title": "Gear VR Performance Tweaks and Pitfalls",
+      "slug": "gear-vr-perf",
+      "authors": [
+        "rogers--justin"
+      ],
+      "slides": {
+        "slides_url": "https://www.w3.org/2016/06/vr-workshop/slides/Gear_VR_Performance_Tweaks_and_Pitfalls.pdf",
+        "pdf_url": "https://www.w3.org/2016/06/vr-workshop/slides/Gear_VR_Performance_Tweaks_and_Pitfalls.pdf"
+      },
+      "video": {
+        "youtube_url": "https://youtu.be/BFeSj6tmdos",
+        "filename": "rogers--justin__gear-vr-perf.mp4"
+      },
+      "topic": "high-performance-vr"
+    },
+    {
+      "title": "Building a WebVR Content Pipeline",
+      "slug": "building-a-webvr-content-pipeline",
+      "authors": [
+        "rogers--justin"
+      ],
+      "slides": {
+        "slides_url": "https://www.w3.org/2016/06/vr-workshop/slides/content-pipeline.pdf",
+        "pdf_url": "https://www.w3.org/2016/06/vr-workshop/slides/content-pipeline.pdf"
+      },
+      "video": {
+        "youtube_url": "https://youtu.be/tPnKwH6QzOI",
+        "filename": "rogers--justin__building-a-webvr-content-pipeline.mp4"
+      },
+      "topic": "high-performance-vr"
+    },
+    {
+      "title": "WebVR: Next with More Layers!",
+      "authors": [
+        "rogers--justin"
+      ],
+      "slides": {
+        "slides_url": "https://www.w3.org/2016/06/vr-workshop/slides/WebVR_Next_w_More_Layers.pdf",
+        "pdf_url": "https://www.w3.org/2016/06/vr-workshop/slides/WebVR_Next_w_More_Layers.pdf"
+      },
+      "video": {
+        "youtube_url": "https://youtu.be/gXgBZ1_D5vk",
+        "filename": "rogers--justin__webvr-next-with-more-layers.mp4"
+      },
+      "topic": "high-performance-vr"
+    },
+    {
+      "title": "Omnitone: Spatial Audio on the Web",
+      "slug": "omnitone",
+      "authors": [
+        "choi--hongchan"
+      ],
+      "slides": null,
+      "video": {
+        "youtube_url": "https://youtu.be/EZnEalRACLo",
+        "filename": "choi--hongchan__omnitone.mp4"
+      },
+      "topic": "immersive-audio"
+    },
+    {
+      "title": "Immersive Audio for VR",
+      "authors": [
+        "assenti--mike"
+      ],
+      "slides": {
+        "slides_url": "https://www.w3.org/2016/06/vr-workshop/slides/immersive-audio.pdf",
+        "pdf_url": "https://www.w3.org/2016/06/vr-workshop/slides/immersive-audio.pdf"
+      },
+      "video": {
+        "youtube_url": "https://youtu.be/bDMi_96Lxwk",
+        "filename": "assenti--mike__immersive-audio-for-vr.mp4"
+      },
+      "topic": "immersive-audio"
+    },
+    {
+      "title": "360° Video-Cloud Streaming",
+      "authors": [
+        "bassbouss--louay"
+      ],
+      "slides": {
+        "slides_url": "https://docs.google.com/presentation/d/1-stapAqJr5ICQcXEC7z-PYnTYY1T3fA3E4lgdBmy9Lc/edit?usp=sharing",
+        "pdf_url": "https://www.w3.org/2016/06/vr-workshop/slides/louay-360-video.pdf"
+      },
+      "video": null,
+      "topic": "360-video-web"
+    },
+    {
+      "title": "HTMLVideoElement Extensions",
+      "authors": [
+        "bassbouss--louay"
+      ],
+      "slides": {
+        "slides_url": "https://docs.google.com/presentation/d/1-stapAqJr5ICQcXEC7z-PYnTYY1T3fA3E4lgdBmy9Lc/edit#slide=id.p17",
+        "pdf_url": "https://www.w3.org/2016/06/vr-workshop/slides/louay-360-video.pdf"
+      },
+      "video": null,
+      "topic": "360-video-web"
+    },
+    {
+      "title": "Encode, Tag, Control 360° Video",
+      "authors": [
+        "gombos--laszlo"
+      ],
+      "slides": {
+        "slides_url": "https://pres.webvr.io/video.html"
+      },
+      "video": null,
+      "topic": "360-video-web"
+    },
+    {
+      "title": "Path to Native 360° Video Support",
+      "authors": [
+        "dorwin--david"
+      ],
+      "slides": {
+        "slides_url": "https://docs.google.com/presentation/d/1FYbOKq_CyUjoCztLPvzk49oRc9P6zsjGDgyo1aTrXHw/",
+        "pdf_url": "https://www.w3.org/2016/06/vr-workshop/slides/path-to-native-spherical-video.pdf"
+      },
+      "video": null,
+      "topic": "360-video-web"
+    }
+  ],
+  "people": [
+    {
+      "name": "Dominique Hazaël-Massieux",
+      "slug": "dom",
+      "email": "dom@w3.org",
+      "homepage_url": "https://www.w3.org/People/Dom/",
+      "twitter_url": "http://twitter.com/dontcallmedom",
+      "github_url": "http://github.com/dontcallmedom"
+    },
+    {
+      "name": "Sean White",
+      "slug": "white--sean",
+      "email": "swhite@mozilla.com",
+      "twitter_url": "https://twitter.com/white--sean",
+      "organization_name": "Mozilla",
+      "organization_url": "https://www.mozilla.org/"
+    },
+    {
+      "name": "Laszlo Gombos",
+      "slug": "gombos--laszlo",
+      "email": "laszlo.gombos@gmail.com",
+      "organization_name": "Samsung",
+      "organization_url": "http://www.samsung.com/"
+    },
+    {
+      "name": "Josh Carpenter",
+      "slug": "carpenter--josh",
+      "email": "joshcarpenter@google.com",
+      "twitter_url": "https://twitter.com/joshcarpenter",
+      "organization_name": "Google",
+      "organization_url": "https://www.google.com/"
+    },
+    {
+      "name": "Chris Van Wiemeersch",
+      "slug": "van-wiemeersch--chris",
+      "email": "cvan@mozilla.com",
+      "twitter_url": "https://twitter.com/cvanw",
+      "homepage_url": "https://cvan.io/",
+      "organization_name": "Mozilla",
+      "organization_url": "https://www.mozilla.org/"
+    },
+    {
+      "name": "Casey Yee",
+      "slug": "yee--casey",
+      "email": "kyee@mozilla.com",
+      "twitter_url": "https://twitter.com/whoyee",
+      "organization_name": "Mozilla"
+    },
+    {
+      "name": "Ningxin Hu",
+      "slug": "hu--ningxin",
+      "email": "ningxin.hu@intel.com",
+      "twitter_url": "https://twitter.com/NingxinHu",
+      "organization_name": "Intel",
+      "organization_url": "http://www.intel.com/"
+    },
+    {
+      "name": "Nell Waliczek",
+      "slug": "waliczek--nell",
+      "email": "nellhof@microsoft.com",
+      "organization_name": "Microsoft",
+      "organization_url": "https://www.microsoft.com/"
+    },
+    {
+      "name": "Boris Smus",
+      "slug": "smus--boris",
+      "email": "boris@smus.com",
+      "github_url": "https://github.com/borismus",
+      "twitter_url": "https://twitter.com/borismus",
+      "homepage_url": "http://smus.com/",
+      "organization_name": "Google",
+      "organization_url": "https://www.google.com/"
+    },
+    {
+      "name": "Philip Rosedale",
+      "slug": "rosedale--philip",
+      "email": "chris@highfidelity.io",
+      "organization_name": "High Fidelity",
+      "organization_url": "https://highfidelity.io/"
+    },
+    {
+      "name": "Luc Courchesne",
+      "slug": "courchesne--luc",
+      "email": "courchel@me.com",
+      "organization_name": "Society for Arts and Technology",
+      "organization_url": "http://sat.qc.ca/"
+    },
+    {
+      "name": "Simon Gunkel",
+      "slug": "gunkel--simon",
+      "email": "SimonGunkel@googlemail.com",
+      "organization_name": "TNO",
+      "organization_url": "https://www.tno.nl/"
+    },
+    {
+      "name": "Mark Pesce",
+      "slug": "pesce--mark",
+      "email": "mpesce@gmail.com",
+      "twitter_url": "https://twitter.com/mpesce"
+    },
+    {
+      "name": "Sangchul Ahn",
+      "slug": "ahn--sangchul",
+      "email": "ahn@letsee.io",
+      "organization_name": "Letsee",
+      "organization_url": "https://www.letsee.io/"
+    },
+    {
+      "name": "Klaus Weidner",
+      "slug": "weidner--klaus",
+      "email": "klausw@chromium.org",
+      "organization_name": "Google",
+      "organization_url": "https://www.google.com/"
+    },
+    {
+      "name": "Hongchan Choi",
+      "slug": "choi--hongchan",
+      "email": "hongchan@google.com",
+      "organization_name": "Google",
+      "organization_url": "https://www.google.com/"
+    },
+    {
+      "name": "Justin Rogers",
+      "slug": "rogers--justin",
+      "email": "j.rogers@oculus.com",
+      "twitter_url": "https://twitter.com/justrogdigitec",
+      "github_url": "https://github.com/DigiTec",
+      "homepage_url": "http://www.justrog.com/",
+      "organization_name": "Oculus VR",
+      "organization_url": "https://www.oculus.com/"
+    },
+    {
+      "name": "Rob Manson",
+      "slug": "manson--rob",
+      "email": "rob.manson@buildAR.com",
+      "organization_name": "awe.media",
+      "organization_url": "https://awe.media/"
+    },
+    {
+      "name": "Tony Parisi",
+      "slug": "parisi--tony",
+      "email": "tparisi@gmail.com",
+      "twitter_url": "https://twitter.com/auradeluxe",
+      "github_url": "https://github.com/tparisi",
+      "homepage_url": "https://tonyparisi.wordpress.com/"
+    },
+    {
+      "name": "Amanda Watson",
+      "slug": "watson--amanda",
+      "email": "amanda.watson@oculus.com",
+      "organization_name": "Oculus VR",
+      "organization_url": "https://www.oculus.com/"
+    },
+    {
+      "name": "Charles LaPierre",
+      "slug": "lapierre--charles",
+      "email": "charlesl@benetech.org",
+      "organization_name": "Benetech",
+      "organization_url": "http://www.benetech.org/"
+    },
+    {
+      "name": "Ricardo Cabello",
+      "slug": "cabello-ricardo",
+      "organization_name": "three.js",
+      "organization_url": "https://threejs.org/"
+    },
+    {
+      "name": "Kevin Ngo",
+      "slug": "ngo--kevin",
+      "email": "kngo@mozilla.com",
+      "twitter_url": "https://twitter.com/andgokevin",
+      "organization_name": "Mozilla",
+      "organization_url": "https://www.mozilla.org/"
+    },
+    {
+      "name": "Amber Roy",
+      "slug": "roy--amber",
+      "email": "seeCoder@yahoo.com",
+      "twitter_url": "https://twitter.com/amberroyVR",
+      "github_url": "https://github.com/amberroy",
+      "homepage_url": "https://www.youtube.com/c/amberVR",
+      "organization_name": "Oculus VR",
+      "organization_url": "https://www.oculus.com/"
+    },
+    {
+      "name": "Amber Roy",
+      "email": "seeCoder@yahoo.com",
+      "twitter_url": "https://twitter.com/amberroyVR",
+      "github_url": "https://github.com/amberroy",
+      "homepage_url": "https://www.youtube.com/c/amberVR",
+      "organization_name": "Oculus VR",
+      "organization_url": "https://www.oculus.com/"
+    },
+    {
+      "name": "Philipp Slusallek",
+      "slug": "slusallek--philipp",
+      "email": "philipp.slusallek@dfki.de",
+      "organization_name": "DFKI (German Research Centre for Artificial Intelligence)",
+      "organization_url": "https://www.dfki.de/"
+    },
+    {
+      "name": "Jaakko Manninen",
+      "slug": "manninen--jaakko",
+      "email": "jaakko@vizor.io",
+      "organization_name": "Vizor",
+      "organization_url": "https://vizor.io/"
+    },
+    {
+      "name": "Mike Assenti",
+      "slug": "assenti--mike",
+      "email": "mike.assenti@dolby.com",
+      "organization_name": "Dolby",
+      "organization_url": "http://www.dolby.com",
+      "twitter_url": "https://twitter.com/piezomike"
+    },
+    {
+      "name": "Louay Bassbouss",
+      "slug": "bassbouss--louay",
+      "email": "louay.bassbouss@fokus.fraunhofer.de",
+      "twitter_url": "https://twitter.com/lbassbouss",
+      "organization__name": "Fraunhofer",
+      "organization__url": "https://www.fraunhofer.de/"
+    },
+    {
+      "name": "David Dorwin",
+      "slug": "dorwin--david",
+      "email": "ddorwin@google.com",
+      "organization_name": "Google",
+      "organization_url": "https://www.google.com/"
+    }
+  ]
+}

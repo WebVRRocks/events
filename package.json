@@ -1,0 +1,37 @@
+{
+  "name": "w3c-webvr",
+  "description": "W3C Web & Virtual Reality Workshop",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "email-templates": "^2.5.4",
+    "es6-promise": "^4.0.5",
+    "list": "^0.8.2",
+    "mkdirp": "^0.5.1",
+    "nunjucks": "^3.0.0",
+    "ytdl-core": "^0.7.19"
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "surge": "^0.18.0"
+  },
+  "engines": {
+    "node": ">=0.6.0",
+    "npm": ">=3.0.0"
+  },
+  "engineStrict": true,
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "http-server -c-1",
+    "build": "npm run sync",
+    "surge": "surge -d https://w3c-webvr.surge.sh",
+    "deploy": "npm run deploy:surge",
+    "deploy:surge": "npm run surge",
+    "open": "npm run open:surge",
+    "open:surge": "open https://w3c-webvr.surge.sh/",
+    "sync": "npm run sync:videos && npm run sync:emails",
+    "sync:videos": "node ./sync-videos",
+    "sync:emails": "node ./sync-emails"
+  }
+}
