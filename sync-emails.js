@@ -98,7 +98,7 @@ Object.keys(WORKSHOPS).forEach(function (workshopDirName) {
   const workshopDir = path.join(__dirname, workshopDirName);
 
   const emailOutputDir = path.join(workshopDir, 'talks', 'emails');
-  const emailTemplateDir = path.join(workshopDir, 'talks', 'email-templates');
+  const emailTemplateDir = path.join(workshopDir, 'talks', 'emails-templates');
 
   const emailTemplate = new EmailTemplate(emailTemplateDir);
   const emailsBaseUrl = BASE_URL_WORKSHOPS + workshopDirName + 'talks/emails/';

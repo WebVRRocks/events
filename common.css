@@ -70,6 +70,9 @@ h1 i {
 h1 a {
   border-bottom: 1px dashed transparent;
   color: inherit;
+}
+
+h1 a:last-child {
   font-weight: bold;
 }
 
@@ -124,6 +127,22 @@ ul a:before {
   margin-right: 10px;
 }
 
+a.dot {
+  opacity: .5;
+}
+
+ul a.dir:before {
+  content: "\f114";
+}
+
+ul a.dir {
+  font-weight: bold;
+}
+
+ul a.dir + i {
+  display: none;
+}
+
 ul a:hover {
   color: #000;
 }
@@ -147,6 +166,17 @@ aside p {
   font-size: 12px;
   margin: 0;
   line-height: 1.5em;
+}
+
+.icon {
+  background-repeat: no-repeat;
+  content: "";
+  display: inline-block;
+  fill: currentColor;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  width: 1em;
 }
 
 @media (min-width: 599px) {
