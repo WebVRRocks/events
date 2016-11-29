@@ -170,7 +170,7 @@ Object.keys(WORKSHOPS).forEach(function (workshopDirName) {
 
     sortBy(talks, 'title');
 
-    let filename = filenameBase = recipient.email;
+    let filename = filenameBase = recipient.email + '.txt';
     if (!isValidFilename(filename)) {
       filename = path.join(emailOutputDir, filename);
     }
