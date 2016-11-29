@@ -44,6 +44,11 @@ npm start
 
 Then load **[`https://localhost:8080`](https://localhost:8080)** to view the files. To view the videos, for example, load [`https://localhost:8080/2016/10/talks/videos/`](https://localhost:8080/2016/10/talks/videos/).
 
+To deploy to the **[production server](https://w3c-webvr.surge.sh/)**:
+
+```sh
+npm run deploy
+```
 
 ## License
 
