@@ -27,11 +27,11 @@
     "dev": "http-server -c-1",
     "indexify": "",
     "build": "npm run indexify && npm run sync",
-    "surge": "surge -d https://w3c-webvr.surge.sh",
+    "surge": "surge -d https://w3c-webvr.webvr.rocks",
     "deploy": "npm run deploy:surge",
     "deploy:surge": "npm run surge",
     "open": "npm run open:surge",
-    "open:surge": "open https://w3c-webvr.surge.sh/",
+    "open:surge": "open https://w3c-webvr.webvr.rocks/",
     "sync": "npm run sync:videos && npm run sync:emails",
     "sync:videos": "node ./sync-videos",
     "sync:emails": "node ./sync-emails"
