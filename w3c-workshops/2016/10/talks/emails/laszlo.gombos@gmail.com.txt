@@ -29,17 +29,29 @@ Here are the unlisted links for you to view your talk:
 
 Please let us know if it’s okay to publish your talk on the Mozilla Hacks (Moz Hacks) YouTube channel.
 
-We are planning to publish and post these early next week, featuring these two videos:
+We are planning to publish and post the videos this week, including these two:
 
-    https://www.youtube.com/watch?v=3vWf_jxoirI
-    https://www.youtube.com/watch?v=QmNykXi2y-U
+    Title:
+        W3C Workshop on Web and Virtual Reality: A Compilation
+    YouTube (unlisted):
+        https://youtu.be/3vWf_jxoirI
 
-We would be glad to also make yours public with your approval, or we can remove it from the YouTube playlist that will be published.
+    Title:
+        W3C Workshop Keynote: The Long Now of WebVR
+    YouTube (unlisted):
+        https://youtu.be/QmNykXi2y-U
 
-Look forward to hearing from you. Thanks for your participation in the Workshop, giving your talk, and offering your patience and understanding!
+With your approval, we’d be glad to also make yours public, or we can remove your videos from the YouTube playlist that will be published.
+
+Look forward to hearing from you. Thanks for your participation in the Workshop, for giving your talk, and for offering your patience and understanding!
 
 
 Best,
 
 Havi Hoffman
-Content manager, Mozilla Hacks
+Content Manager, Mozilla Hacks
+havi@mozilla.com
+
+Chris Van Wiemeersch
+W3C Web & VR Workshop Co-Chair, Mozilla WebVR
+cvan@mozilla.com

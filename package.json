@@ -28,14 +28,14 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "http-server -c-1",
-    "build": "NODE_ENVIRONMENT='production' npm run sync",
+    "build": "npm run sync",
     "surge": "surge -d https://events.webvr.rocks",
     "deploy": "npm run deploy:surge",
     "deploy:surge": "npm run surge",
     "open": "npm run open:surge",
     "open:surge": "open https://events.webvr.rocks/",
     "sync": "npm run sync:videos && npm run sync:emails",
-    "sync:videos": "node ./w3c-workshops/sync-videos",
-    "sync:emails": "node ./w3c-workshops/sync-emails"
+    "sync:videos": "NODE_ENVIRONMENT='production' node ./w3c-workshops/sync-videos",
+    "sync:emails": "NODE_ENVIRONMENT='production' node ./w3c-workshops/sync-emails"
   }
 }
