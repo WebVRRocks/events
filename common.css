@@ -56,11 +56,19 @@ h2 {
 }
 
 h1 {
-  font-size: 18px;
+  color: #111;
+  display: block;
   font-weight: 500;
   margin-top: 0;
-  color: #000;
-  display: flex;
+}
+
+h1 {
+  font-size: 0;
+}
+
+h1 i,
+h1 a {
+  font-size: 1.5rem;
 }
 
 h1 i {
@@ -70,13 +78,15 @@ h1 i {
 h1 a {
   border-bottom: 1px dashed transparent;
   color: inherit;
+  word-break: break-all;
+  display: inline-block;
 }
 
 h1 a:last-child {
   font-weight: bold;
 }
 
-h1 a:after {
+h1 a + a:before {
   content: "/";
 }
 
@@ -120,7 +130,7 @@ ul li + li a {
 }
 
 ul a:before {
-  color: #111;
+  color: inherit;
   content: "\f016";
   display: inline-block;
   font-family: FontAwesome;
@@ -129,6 +139,10 @@ ul a:before {
 
 a.dot {
   opacity: .5;
+}
+
+a[href^=".."] {
+  opacity: .75;
 }
 
 ul a.dir:before {
@@ -144,28 +158,40 @@ ul a.dir + i {
 }
 
 ul a:hover {
-  color: #000;
+  color: #111;
 }
 
-ul a[class=""] + i {
-  display: none;
-}
-
-ul a[class=""]:before {
+ul a:before {
   content: "\f114";
   font-size: 14px;
 }
 
-aside {
+.aside {
+  border-top: 1px dotted #eee;
   color: #444;
+  font-size: .7rem;
   font-style: italic;
-  margin-top: 50px;
+  margin-top: 30px;
+  padding-top: 30px;
 }
 
-aside p {
-  font-size: 12px;
+.aside p {
+  font-size: .8rem;
   margin: 0;
-  line-height: 1.5em;
+  line-height: 1.8;
+}
+
+.aside a {
+  color: #999;
+}
+
+.aside a:hover {
+  border-bottom-color: #ccc;
+}
+
+.aside strong {
+  color: #666;
+  font-size: .9rem;
 }
 
 .icon {
@@ -184,8 +210,9 @@ aside p {
     padding: 45px;
   }
 
-  h1 {
-    font-size: 15px;
+  h1 i,
+  h1 a {
+    font-size: 1.3rem;
   }
 
   ul li {
@@ -213,7 +240,8 @@ aside p {
     padding: 5px 0;
   }
 
-  aside {
-    padding-top: 50px;
+  .aside {
+    margin-top: 45px;
+    padding-top: 45px;
   }
 }

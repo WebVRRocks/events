@@ -1,6 +1,6 @@
 The MIT License
 
-Copyright © 2016 WebVR Events authors.
+Copyright © 2016 W3C Web & Virtual Reality Workshop 2016 authors.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

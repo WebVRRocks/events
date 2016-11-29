@@ -1,14 +1,12 @@
 {
-  "name": "w3c-webvr",
-  "description": "W3C Web & Virtual Reality Workshop",
+  "name": "webvr-events",
+  "description": "WebVR Events",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
   "dependencies": {
     "email-templates": "^2.5.4",
     "es6-promise": "^4.0.5",
-    "indexifier": "github:cvan/indexifier#d93abb5",
-    "list": "^0.8.2",
     "mkdirp": "^0.5.1",
     "nunjucks": "^3.0.0",
     "ytdl-core": "^0.7.19"
@@ -22,18 +20,22 @@
     "npm": ">=3.0.0"
   },
   "engineStrict": true,
+  "sync": {
+    "production": {
+      "base_url": "https://events.webvr.rocks/"
+    }
+  },
   "scripts": {
     "start": "npm run dev",
     "dev": "http-server -c-1",
-    "indexify": "",
-    "build": "npm run indexify && npm run sync",
-    "surge": "surge -d https://w3c-webvr.webvr.rocks",
+    "build": "NODE_ENVIRONMENT='production' npm run sync",
+    "surge": "surge -d https://events.webvr.rocks",
     "deploy": "npm run deploy:surge",
     "deploy:surge": "npm run surge",
     "open": "npm run open:surge",
-    "open:surge": "open https://w3c-webvr.webvr.rocks/",
+    "open:surge": "open https://events.webvr.rocks/",
     "sync": "npm run sync:videos && npm run sync:emails",
-    "sync:videos": "node ./sync-videos",
-    "sync:emails": "node ./sync-emails"
+    "sync:videos": "node ./w3c-workshops/sync-videos",
+    "sync:emails": "node ./w3c-workshops/sync-emails"
   }
 }
