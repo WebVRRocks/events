@@ -98,6 +98,16 @@ main {
   max-width: 600px;
 }
 
+a.dot {
+  color: #999;
+  opacity: .5;
+}
+
+a[href^=".."],
+ul li:first-child a {
+  opacity: .75;
+}
+
 ul {
   list-style: none;
   padding-top: 20px;
@@ -131,39 +141,86 @@ ul li + li a {
 
 ul a:before {
   color: inherit;
+  /* doc pictogram: \f016 */
+  /* doc pictogram, w/ fill: \f15b */
   content: "\f016";
   display: inline-block;
   font-family: FontAwesome;
+  font-size: 1rem;
   margin-right: 10px;
 }
 
-a.dot {
-  opacity: .5;
-}
-
-a[href^=".."] {
-  opacity: .75;
-}
-
-ul a.dir:before {
-  content: "\f114";
+ul a[href*="../"]:before,
+ul li:first-child a:before {
+  /* doc pictogram: \f01b */
+  /* up pictogram, w/ fill: \f062 */
+  content: "\f062";
 }
 
 ul a.dir {
   font-weight: bold;
 }
 
+ul a.dir:before {
+  /* folder pictogram: \f114 */;
+  /* folder pictogram, w/ fill: \f07b */
+  /* open folder pictogram, w/ fill: \f07c */
+  content: "\f07b";
+}
+
 ul a.dir + i {
   display: none;
 }
 
-ul a:hover {
-  color: #111;
+ul a[href$=".mp4"]:before {
+  content: "\f1c8";
 }
 
-ul a:before {
-  content: "\f114";
-  font-size: 14px;
+ul a[href$=".pdf"]:before {
+  content: "\f1c1";
+}
+
+ul a[href$=".zip"]:before {
+  content: "\f1c6";
+}
+
+ul a[href$=".jpg"]:before,
+ul a[href$=".png"]:before {
+  content: "\f1c6";
+}
+
+ul a[href$=".njk"]:before,
+ul a[href$=".json"]:before {
+  content: "\f1c9";
+}
+
+ul a[href$=".txt"]:before,
+ul a[href$=".md"]:before {
+  /* doc pictogram: \f0f6 */
+  /* doc pictogram, w/ fill: \f15c */
+  content: "\f0f6";
+}
+
+ul a[href^="//"]:before,
+ul a[href^="https://"]:before,
+ul a[href^="http://"] {
+  content: "\f14c";
+}
+
+ul a[href*="//github.com/"]:before {
+  content: "\f09b";
+}
+
+/*
+ul a[href*="//github.com/"][href*="/tree/"]:before,
+ul a[href*="//github.com/"][href*="/blob/"]:before,
+ul a[href*="//github.com/"][href*="/pulls/"]:before {
+  content: "\f126";
+}
+*/
+
+ul a:hover {
+  color: #111;
 }
 
 .aside {
