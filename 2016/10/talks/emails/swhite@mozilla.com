@@ -5,8 +5,8 @@ Thanks for being part of the first W3C Workshop on Web and Virtual Reality. As y
 Here’s the unlisted link for you to view your talk:
 
     Title:               The Long Now of WebVR
-    YouTube (unlisted):  (video was unfortunately able to be captured)
-    Download link:       (video was unfortunately able to be captured)
+    YouTube (unlisted):  https://youtu.be/QmNykXi2y-U
+    Download link:       https://w3c-webvr.surge.sh/2016/10/talks/videos/white--sean__the-long-now-of-webvr.mp4
 
 (We will delete these at the end of the year, so please take action before then.)
 
