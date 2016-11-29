@@ -1,5 +1,7 @@
 # WebVR Events
 
+Archives of WebVR events.
+
 
 ## Archives
 
