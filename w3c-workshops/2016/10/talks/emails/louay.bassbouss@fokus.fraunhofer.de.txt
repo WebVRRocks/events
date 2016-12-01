@@ -34,7 +34,7 @@ We are planning to publish and post the videos this week, including these two:
     YouTube (unlisted):
         https://youtu.be/QmNykXi2y-U
 
-With your approval, we’d be glad to also make yours public, or we can remove your videos from the YouTube playlist that will be published.
+With your approval, we’d be glad to also make yours public, or we can remove your videos from the YouTube playlist that will be published. Please reply to this email indicating your approve, or let us know if you’d rather not publish this. (If we don't hear from you by Tuesday, December 6, we will assume you have given consent to publish; if you later decide you want us to unpublish your videos, just let us know at your convenience.)
 
 Look forward to hearing from you. Thanks for your participation in the Workshop, for giving your talk, and for offering your patience and understanding!
 
@@ -46,5 +46,5 @@ Content Manager, Mozilla Hacks
 havi@mozilla.com
 
 Chris Van Wiemeersch
-W3C Web & VR Workshop Co-Chair, Mozilla WebVR
+W3C Web & VR Workshop (Oct 19-20, 2016) Co-Chair, Mozilla WebVR
 cvan@mozilla.com
