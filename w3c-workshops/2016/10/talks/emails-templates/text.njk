@@ -1,11 +1,25 @@
 Hi, {{ recipient._first_name }}!
 
-Thanks for being part of the first W3C Workshop on Web and Virtual Reality. As you may know, Mozilla sent an ad-hoc video crew and they were able to capture portions of many of the sessions, including yours. With your permission, we’d be delighted to publish your talk on a public YouTube playlist called “W3C Workshop on Web and Virtual Reality” - which will include at the minimum a brief compilation video from the event and a video of the keynote talk by Mozilla SVP Sean White.
+{%- set videos_available = 0 -%}
+{%- for talk in talks %}
+  {%- if talk.has_video -%}
+    {%- set videos_available = videos_available + 1 -%}
+  {%- endif -%}
+{%- endfor %}
+{%- set all_videos_available = videos_available == talks.length -%}
+
+{% if all_videos_available %}
+
+Thanks for being part of the first W3C Workshop on Web and Virtual Reality. As you may know, Mozilla sent an ad-hoc video crew and they were able to capture portions of many of the sessions, including yours.
+
+We’re putting together a YouTube playlist called “W3C Workshop on Web and Virtual Reality” - which will include at the minimum a brief compilation video from the event and a video of the keynote talk by Mozilla SVP, Sean White.
+
+With your permission, we’d be delighted to publish your talk on the public YouTube playlist.
 
 {% if talks.length == 1 -%}
-  Here’s the unlisted link for you to view your talk:
+Here’s the unlisted link for you to view your talk:
 {% else -%}
-  Here are the unlisted links for you to view your talk:
+Here are the unlisted links for you to view your talks:
 {% endif %}
 
 {%- for talk in talks %}
@@ -37,6 +51,29 @@ We are planning to publish and post the videos this week, including these two:
 With your approval, we’d be glad to also make yours public, or we can remove your {{ 'video' if videos.length == 0 else 'videos' }} from the YouTube playlist that will be published. Please reply to this email indicating your approve, or let us know if you’d rather not publish this. (If we don't hear from you by Tuesday, December 6, we will assume you have given consent to publish; if you later decide you want us to unpublish your {{ 'video' if videos.length == 0 else 'videos' }}, just let us know at your convenience.)
 
 Look forward to hearing from you. Thanks for your participation in the Workshop, for giving your talk, and for offering your patience and understanding!
+
+{%- else %}
+
+Thanks for being part of the first W3C Workshop on Web and Virtual Reality. As you may know, Mozilla sent an ad-hoc video crew and they were able to capture portions of many of the sessions. Sadly, due to unforeseen circumstances at the venue, we did not succeed in capturing a good or complete recording of your talk. Please accept our apologies.
+
+We’re putting together a YouTube playlist called “W3C Workshop on Web and Virtual Reality” - which will include at the minimum a brief compilation video from the event and a video of the keynote talk by Mozilla SVP, Sean White.
+
+We wanted to give you the heads-up that we’ll be publishing these in the coming weeks, beginning with these recordings:
+
+    Title:
+        W3C Workshop on Web and Virtual Reality: A Compilation
+    YouTube (unlisted):
+        https://youtu.be/3vWf_jxoirI
+
+    Title:
+        W3C Workshop Keynote: The Long Now of WebVR
+    YouTube (unlisted):
+        https://youtu.be/QmNykXi2y-U
+
+We’re sincerely sorry that we don’t have a complete record of this Workshop - and look forward to future convening.
+
+Thanks for your participation in the Workshop, for giving your talk, and for offering your patience and understanding!
+{%- endif %}
 
 
 Best,

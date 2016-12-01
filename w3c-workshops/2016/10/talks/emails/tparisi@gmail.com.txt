@@ -1,8 +1,12 @@
 Hi, Tony!
 
-Thanks for being part of the first W3C Workshop on Web and Virtual Reality. As you may know, Mozilla sent an ad-hoc video crew and they were able to capture portions of many of the sessions, including yours. With your permission, we’d be delighted to publish your talk on a public YouTube playlist called “W3C Workshop on Web and Virtual Reality” - which will include at the minimum a brief compilation video from the event and a video of the keynote talk by Mozilla SVP Sean White.
+Thanks for being part of the first W3C Workshop on Web and Virtual Reality. As you may know, Mozilla sent an ad-hoc video crew and they were able to capture portions of many of the sessions, including yours.
 
-Here are the unlisted links for you to view your talk:
+We’re putting together a YouTube playlist called “W3C Workshop on Web and Virtual Reality” - which will include at the minimum a brief compilation video from the event and a video of the keynote talk by Mozilla SVP, Sean White.
+
+With your permission, we’d be delighted to publish your talk on the public YouTube playlist.
+
+Here are the unlisted links for you to view your talks:
 
     Title:
         glTF: Real-Time 3D Asset Delivery

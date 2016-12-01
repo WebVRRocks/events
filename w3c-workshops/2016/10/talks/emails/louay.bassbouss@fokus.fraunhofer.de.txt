@@ -1,28 +1,10 @@
 Hi, Louay!
 
-Thanks for being part of the first W3C Workshop on Web and Virtual Reality. As you may know, Mozilla sent an ad-hoc video crew and they were able to capture portions of many of the sessions, including yours. With your permission, we’d be delighted to publish your talk on a public YouTube playlist called “W3C Workshop on Web and Virtual Reality” - which will include at the minimum a brief compilation video from the event and a video of the keynote talk by Mozilla SVP Sean White.
+Thanks for being part of the first W3C Workshop on Web and Virtual Reality. As you may know, Mozilla sent an ad-hoc video crew and they were able to capture portions of many of the sessions. Sadly, due to unforeseen circumstances at the venue, we did not succeed in capturing a good or complete recording of your talk. Please accept our apologies.
 
-Here are the unlisted links for you to view your talk:
+We’re putting together a YouTube playlist called “W3C Workshop on Web and Virtual Reality” - which will include at the minimum a brief compilation video from the event and a video of the keynote talk by Mozilla SVP, Sean White.
 
-    Title:
-        360° Video-Cloud Streaming
-    YouTube (unlisted):
-        (video was unfortunately able to be captured)
-    Download link:
-        (video was unfortunately able to be captured)
-
-    Title:
-        HTMLVideoElement Extensions
-    YouTube (unlisted):
-        (video was unfortunately able to be captured)
-    Download link:
-        (video was unfortunately able to be captured)
-
-(We will delete these at the end of the year, so please take action before then.)
-
-Please let us know if it’s okay to publish your talk on the Mozilla Hacks (Moz Hacks) YouTube channel.
-
-We are planning to publish and post the videos this week, including these two:
+We wanted to give you the heads-up that we’ll be publishing these in the coming weeks, beginning with these recordings:
 
     Title:
         W3C Workshop on Web and Virtual Reality: A Compilation
@@ -34,9 +16,9 @@ We are planning to publish and post the videos this week, including these two:
     YouTube (unlisted):
         https://youtu.be/QmNykXi2y-U
 
-With your approval, we’d be glad to also make yours public, or we can remove your videos from the YouTube playlist that will be published. Please reply to this email indicating your approve, or let us know if you’d rather not publish this. (If we don't hear from you by Tuesday, December 6, we will assume you have given consent to publish; if you later decide you want us to unpublish your videos, just let us know at your convenience.)
+We’re sincerely sorry that we don’t have a complete record of this Workshop - and look forward to future convening.
 
-Look forward to hearing from you. Thanks for your participation in the Workshop, for giving your talk, and for offering your patience and understanding!
+Thanks for your participation in the Workshop, for giving your talk, and for offering your patience and understanding!
 
 
 Best,

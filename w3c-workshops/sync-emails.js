@@ -140,8 +140,10 @@ Object.keys(WORKSHOPS).forEach(function (workshopDirName) {
       }
 
       if (talk.video && talk.video.youtube_url && talk.video.filename) {
+        talk.has_video = true;
         talk.video.raw_url = videosBaseUrl + talk.video.filename;
       } else {
+        talk.has_video = false;
         if (!talk.video) {
           talk.video = {};
         }
